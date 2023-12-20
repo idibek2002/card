@@ -1,0 +1,52 @@
+:root{
+  --golden-color:#d8b806;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.front, .back{
+  width: 380px;
+  height: 220px;
+  background-color: var(--golden-color);
+  border-radius: 15px;
+}
+.front__top__card{
+  width: 100%;
+  height: 150px;
+}
+.front__bottom__card{
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo{
+  width: 40px;
+  transform: rotate(-90deg);
+}
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 3px 0;
+}
+.contact span{
+  font-size: 12px;
+}
+.security{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
